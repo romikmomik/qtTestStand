@@ -8,8 +8,12 @@ class qtGpio : public QObject
 {
     Q_OBJECT
  public:
-    qtGpio();
+    qtGpio(int number);
     ~qtGpio();
+    int setDirection(bool in);
+    int setValue(bool high);
+private:
+    int mNumber;
 };
 
 #endif // GPIO_H

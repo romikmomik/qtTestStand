@@ -17,7 +17,6 @@ public:
     qtLed();
     ~qtLed();
     void setColor(led_color color);
-    void blink(led_color color, int count);
 
 private:
     QFile mRedFile;

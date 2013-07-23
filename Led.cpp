@@ -32,8 +32,3 @@ void qtLed::setColor(led_color color){
         mRedFile.flush();
     }
 }
-
-void qtLed::blink(led_color color,int count)
-{
-
-}

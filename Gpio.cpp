@@ -3,7 +3,17 @@
 
 #include "Gpio.h"
 
-qtGpio::qtGpio(){
+qtGpio::qtGpio(int number):
+    mNumber(number)
+{
+
+}
+int qtGpio::setDirection(bool in)
+{
+
+}
+
+int qtGpio::setValue(bool high){
 
 }
 
