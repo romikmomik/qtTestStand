@@ -18,5 +18,6 @@ MainWindow::MainWindow(QWidget *parent) :
 
 MainWindow::~MainWindow()
 {
+    leds.setColor(qtLed::RED);
     delete ui;
 }

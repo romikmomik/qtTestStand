@@ -14,9 +14,11 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    Led.cpp
+    Led.cpp \
+    Gpio.cpp
 
 HEADERS  += mainwindow.h \
-    Led.h
+    Led.h \
+    Gpio.h
 
 FORMS    += mainwindow.ui
